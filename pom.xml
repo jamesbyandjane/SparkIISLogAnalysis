@@ -13,20 +13,61 @@
 	<dependencies>
 
 		<dependency>
+		    <groupId>org.apache.kafka</groupId>
+		    <artifactId>kafka-clients</artifactId>
+		</dependency>
+
+		<dependency>
 		    <groupId>com.alibaba</groupId>
 		    <artifactId>fastjson</artifactId>
 		</dependency>
-  	
-	  	<dependency>
+  		  	<dependency>
 		    <groupId>org.apache.hadoop</groupId>
 		    <artifactId>hadoop-client</artifactId>
 		</dependency> 
 		
 		<dependency>
 		    <groupId>org.apache.spark</groupId>
+		    <artifactId>spark-sql_2.11</artifactId>
+		</dependency>		
+		
+		<dependency>
+		    <groupId>org.apache.spark</groupId>
+		    <artifactId>spark-repl_2.11</artifactId>
+		</dependency>		
+		
+		<dependency>
+		    <groupId>org.apache.spark</groupId>
 		    <artifactId>spark-core_2.11</artifactId>
 		</dependency>   
+
+		<dependency>
+		    <groupId>org.apache.spark</groupId>
+		    <artifactId>spark-tags_2.11</artifactId>
+		</dependency>		
+
+		<dependency>
+		    <groupId>org.apache.spark</groupId>
+		    <artifactId>spark-catalyst_2.11</artifactId>
+		</dependency>
 		
+		
+		<dependency>
+		    <groupId>org.apache.spark</groupId>
+		    <artifactId>spark-streaming-kafka_2.11</artifactId>
+		</dependency>
+				
+		<dependency>
+		    <groupId>org.apache.spark</groupId>
+		    <artifactId>spark-hive_2.11</artifactId>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.apache.spark</groupId>
+		    <artifactId>spark-streaming_2.11</artifactId>
+		    <scope>provided</scope>
+		</dependency>
 		<dependency>
 		    <groupId>log4j</groupId>
 		    <artifactId>log4j</artifactId>
@@ -37,7 +78,6 @@
 		    <artifactId>slf4j-log4j12</artifactId>
 		    <scope>test</scope>
 		</dependency>
-  
 	</dependencies>
 	
 	<build>
